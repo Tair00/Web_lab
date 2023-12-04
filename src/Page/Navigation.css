@@ -1,0 +1,28 @@
+nav ul {
+    padding: 0; /* Убирает внутренние отступы у списка */
+}
+
+nav ul li {
+    display: inline; /* Размещает элементы списка в строку, горизонтально */
+    margin-right: 10px; /* Устанавливает отступ между элементами списка */
+}
+
+
+nav ul li a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;/* текст */
+    background-color: #3498db;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    background-color: #2980b9; /* Изменяет цвет фона при наведении на ссылку */
+}
+
+
+nav ul li a.active {
+    background-color: #1f618d; /* Цвет фона для активной ссылки */
+}
